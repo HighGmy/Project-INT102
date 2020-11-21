@@ -8,6 +8,8 @@
     border-bottom: 4px solid #ec1839;
 }
 
+.showcase .showcase-item .showcase-info .icon .fa,
+.showcase .showcase-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
 .aside .nav li a:hover,
@@ -27,4 +29,8 @@
 .aside .nav-toggler span::after,
 .home .intro .social-links a {
     background-color: #ec1839;
+}
+
+.showcase .showcase-filter button.active {
+    border-color: #ec1839;
 }
