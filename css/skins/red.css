@@ -8,12 +8,12 @@
     border-bottom: 4px solid #ec1839;
 }
 
+.contact .contact-info-item .icon .fa,
 .showcase .showcase-item .showcase-info .icon .fa,
 .showcase .showcase-filter button.active,
 .service .service-item .service-item-inner .icon .fa,
 .about .about-content .about-text h3 span,
-.aside .nav li a:hover,
-.aside .nav li a.active {
+.aside .nav li a:hover{
     color: #ec1839;
 }
 

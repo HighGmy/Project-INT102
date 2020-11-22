@@ -12,16 +12,21 @@
 
 .about .about-content .about-text h3 {
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
     font-weight: 700;
     color: #302e4d;
 }
 
 .about .about-content .about-text p {
     font-size: 16px;
-    line-height: 25px;
+    line-height: 30px;
     color: #504e70;
-    margin: 0;
+    margin: 50px 50px 50px 25px;
+    border: 1px solid #d4d4e3;
+    border-radius: 10px;
+    padding: 30px 40px;
+    background-color: #fdf9ff;
+    box-shadow: 0 0 20px rgba(48,46,77,0.15);
 }
 
 .about .about-content .personal-info {
