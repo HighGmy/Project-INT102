@@ -110,7 +110,6 @@
 }
 
 .about .about-content .skills .skill-item .skill-percent {
-    /*display: none;*/
     line-height: 40px;
     position: absolute;
     right: 0;

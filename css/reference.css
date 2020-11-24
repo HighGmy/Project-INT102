@@ -1,0 +1,17 @@
+.reference .reference-item h3 {
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 1000;
+    color: #302e4d;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}

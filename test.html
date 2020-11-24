@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="css/service.css" type="text/css">
   <link rel="stylesheet" href="css/showcase.css" type="text/css">
   <link rel="stylesheet" href="css/contact.css" type="text/css">
+  <link rel="stylesheet" href="css/reference.css" type="text/css">
   <link rel="stylesheet" href="css/responsive.css" type="text/css">
   <link rel="stylesheet" href="css/skins/red.css" type="text/css">
 </head>
@@ -34,12 +35,12 @@
       </div>
 
       <ul class="nav">
-        <li><a href="1.home.html"><i class="fa fa-home"></i> Home</a></li>
-        <li><a href="2.about.html"><i class="fa fa-user"></i> About</a></li>
-        <li><a href="3.service.html"><i class="fa fa-check"></i> Service</a></li>
-        <li><a href="4.showcase.html"><i class="fa fa-briefcase"></i> Showcase</a></li>
-        <li><a href="5.contact.html"><i class="fa fa-comments"></i> Contact</a></li>
-        <li><a href="6.reference.html"><i class="fa fa-list"></i> Reference</a></li>
+        <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#service"><i class="fa fa-check"></i> Service</a></li>
+        <li><a href="#showcase"><i class="fa fa-briefcase"></i> Showcase</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        <li><a href="#reference"><i class="fa fa-list"></i> Reference</a></li>
       </ul>
 
       <div class="copyrigth-text">
@@ -51,6 +52,28 @@
     <!---------------------------------------------------- ส่วนของ Main Content ---------------------------------------------------->
 
     <div class="main-content">
+
+      <!---------------------------------- ส่วนของหน้า Home ---------------------------------->
+
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="intro">
+
+            <img src="images/picture/profile.jpg" alt="profile" class="shadow-dark">
+
+            <h1>Wongsakorn Saengsurasak</h1>
+            <p>I'm a Web Developer</p>
+
+            <div class="social-links">
+              <a href="https://www.facebook.com/wongsakorn.saengsurasak/" target="_blank"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/game_wk/" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://twitter.com/Haigemu" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://github.com/HighGmy" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       <!---------------------------------- ส่วนของหน้า About ---------------------------------->
 
@@ -123,7 +146,7 @@
 
                   <div class="row">
                     <div class="buttons padd-15">
-                      <a href="5.contact.html" class="btn">Contact Me</a>
+                      <a href="#contact" class="btn">Contact Me</a>
                     </div>
                   </div>
                 </div>
@@ -345,9 +368,284 @@
         </div>
       </section>
 
+      <!---------------------------------- ส่วนของหน้า Showcase  ---------------------------------->
+
+      <section class="showcase section" id="showcase">
+        <div class="container">
+
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Showcase</h2>
+            </div>
+          </div>
+
+          <!--------------------------- Not Use This!! --------------------------->
+
+          <!--
+          <div class="row">
+            <div class="showcase-filter padd-15">
+              <button type="button" class="active" data-filter="all">All</button>
+              <button type="button" data-filter="photography">Photography</button>
+              <button type="button" data-filter="infographic">Infographic</button>
+              <button type="button" data-filter="logo">Logo</button>
+            </div>
+          </div>
+          -->
+          
+
+          <div class="row">
+
+            <!-- Showcase Item1 -->
+
+            <div class="showcase-item padd-15" data-category="photography">
+              <div class="showcase-item-inner shadow-dark">
+                <div class="showcase-img">
+                  <img src="images/showcase/1.jpg" width="250" height="200">
+                </div>
+                <div class="showcase-info">
+                  <h4>Photoshop</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Showcase Item2 -->
+
+            <div class="showcase-item padd-15" data-category="photography">
+              <div class="showcase-item-inner shadow-dark">
+                <div class="showcase-img">
+                  <img src="images/showcase/2.jpg" width="250" height="200">
+                </div>
+                <div class="showcase-info">
+                  <h4>Photoshop</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Showcase Item3 -->
+
+            <div class="showcase-item padd-15" data-category="photography">
+              <div class="showcase-item-inner shadow-dark">
+                <div class="showcase-img">
+                  <img src="images/showcase/3.jpg" width="250" height="200">
+                </div>
+                <div class="showcase-info">
+                  <h4>Photoshop</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Showcase Item4 -->
+
+            <div class="showcase-item padd-15" data-category="photography">
+              <div class="showcase-item-inner shadow-dark">
+                <div class="showcase-img">
+                  <img src="images/showcase/4.jpg" width="250" height="200">
+                </div>
+                <div class="showcase-info">
+                  <h4>Infographic Design </h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Showcase Item5 -->
+
+            <div class="showcase-item padd-15" data-category="infographic">
+              <div class="showcase-item-inner shadow-dark">
+                <div class="showcase-img">
+                  <img src="images/showcase/5.jpg" width="250" height="200">
+                </div>
+                <div class="showcase-info">
+                  <h4>Logo Design</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Showcase Item6 -->
+
+            <div class="showcase-item padd-15" data-category="logo">
+              <div class="showcase-item-inner shadow-dark">
+                <div class="showcase-img">
+                  <img src="images/showcase/6.jpg" width="250" height="200">
+                </div>
+                <div class="showcase-info">
+                  <h4>Logo Design</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </section>
+      
+      <!---------------------------------- ส่วนของหน้า Contact ---------------------------------->
+
+      <section class="contact section" id="contact">
+        <div class="container">
+
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+        
+          <div class="row">
+
+            <!-- Contact Item1 -->
+            
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <h4>Call Me</h4>
+              <p>097-320-9904</p>
+            </div>
+
+            <!-- Contact Item2 -->
+            
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-home"></i></div>
+              <h4>Address</h4>
+              <p>82 หมู่บ้านรนารมย์ ซ.กังวลกิจ ถ.กังวลกิจ1 ต.บ้านบึง อ.บ้านบึง จ.ชลบุรี 20170</p>
+            </div>
+
+            <!-- Contact Item3 -->
+
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>wong.saengsurasak@gmail.com</p>
+              <p>wongsakorn.saeng@mail.kmutt.ac.th</p>
+            </div>
+
+            <!-- Contact Item4 -->
+
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-facebook"></i></div>
+              <h4>Facebook</h4>
+              <p>Wongsakorn Saengsurasak</p>
+            </div>
+
+            <!-- Contact Item5 -->
+
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-map-marker"></i></div>
+              <h4>Office</h4>
+              <p>126 ถ.ประชาอุทิศ แขวงบางมด เขตทุ่งครุ จ.กรุงเทพมหานคร 10140</p>
+            </div>
+
+            <!-- Contact Item6 -->
+
+            <div class="contact-info-item padd-15">
+              <div class="icon"><i class="fa fa-instagram"></i></div>
+              <h4>Instagram</h4>
+              <p>game_wk</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!---------------------------------- ส่วนของหน้า Reference ---------------------------------->
+
+      <section class="reference section" id="reference">
+        <div class="container">
+
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Reference</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="reference-item padd-15">
+              <h3>CSS Style sheets</h3>
+            </div>
+              <table>
+                <tr>
+                  <th><a href="https://www.w3schools.com/css/css3_flexbox.asp" target="_blank">display: flex</a></th>
+                  <td>อยู่ใน CSS Flexbox ซึ่งช่วยให้เราสามารถจัดเรียง element ต่าง ๆ ที่อยู่ใน container เดียวกันได้แบบ responsive<br>ตามที่เราต้องการ</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_flex.asp" target="_blank">flex</a></th>
+                  <td>
+                    อยู่ใน CSS Flex Items ซึ่งเป็นการเขียนแบบ shorthand ของ flex-grow, flex-shrink และ flex-basis<br>
+                    • flex-grow ใช้กำหนดขนาดของแต่ละ item ว่าให้ขยายขนาดเท่าไหร่ใน container<br>
+                    • flex-shrink ใช้กำหนดขนาดของแต่ละ item ว่าให้ย่อขนาดหรือหดตัวเท่าไหร่ใน container <br>
+                    • flex-basis ใช้กำหนดความยาวเริ่มต้นของ item ใน container
+                  </td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp" target="_blank">flex-warp</a></th>
+                  <td>อยู่ใน CSS Flex Container ซึ่งกำหนดว่าถ้า element ต่าง ๆ มีการบีบอัดกันเกิดขึ้นเนื่องจาก Container มีขนาดเล็ก<br>จะให้มีการ Wrap หรือขึ้นบรรทัดใหม่ใน Element ส่วนที่เกินมา</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">transition</a></th>
+                  <td>ช่วยให้การเปลี่ยนแปลงค่าระหว่าง จุดเริ่มต้นและจุดจบเป็นไปอย่าง smooth มากขึ้น</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_transform.asp" target="_blank">transform</a></th>
+                  <td>การที่จะใส่เอฟเฟ็กต่างๆให้แก่ element อย่างเช่นการย้าย element ไปตำแหน่งที่กำหนด, การหมุน element เป็นต้น</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_box-shadow.asp" target="_blank">box-shadow</a></th>
+                  <td>การทำเงาให้กับ element ใดๆ ที่เราต้องการ</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_browsersupport.asp" target="_blank">-ms</a></th>
+                  <td>CSS ที่ใช้ในการแสดงผลเว็บ รองรับการใช้ใน Internet Explorer </td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_browsersupport.asp" target="_blank">-webkit</a></th>
+                  <td>CSS ที่ใช้ในการแสดงผลเว็บ รองรับการใช้ใน Safari, Chrome และ Opera</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/pr_pos_z-index.asp" target="_blank">z-index</a></th>
+                  <td>การใช้จัดเรียง element ที่ซ้อนกันและต้องเป็น element ที่ถูกกำหนด position ไว้เท่านั้น</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_justify-content.asp" target="_blank">justify-content</a></th>
+                  <td>กำหนดการจัดตำแหน่งของ items เมื่อเทียบกับทิศทางของแกนหลัก</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_align-items.asp" target="_blank">align-items</a></th>
+                  <td>กำหนดการจัดตำแหน่งของ items เมื่อเทียบกับทิศตรงกันข้ามของแกนหลัก</td>
+                </tr>
+                <tr>
+                  <th><a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">@media</a></th>
+                  <td> 
+                    Media Query เป็นความสามารถหนึ่งของ CSS3 ใช้ทำเว็บไซต์ Responsive โดยกำหนดขนาดหน้าจอของ Device หรือ<br> 
+                    อุปกรณ์แสดงผล ใช้คำสั่ง Media Query โดยจะเขียนคำสั่ง CSS ปกติ และเขียนคำสั่งลงไปในเงื่อนไข หลักการของคำสั่งตัวนี้<br>
+                    คือ เอาหน้าจอของอุปกรณ์มากำหนด
+                  </td>
+                </tr>
+              </table>        
+          </div>
+
+      </div>
+    </section>
 
     </div>
+
   </div>
 
 </body>
+
 </html>

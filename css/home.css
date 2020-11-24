@@ -1,6 +1,6 @@
 .home {
     min-height: 100vh;
-    display: -ms-flexbox;
+    display: -ms-flex;
     display: flex;
 }
 
